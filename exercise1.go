@@ -4,21 +4,21 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello its me Aftab")
-
+	fmt.Println("Some changes")
 	a := 10
 	b := 20
 
 	c := a + b
-	print(c)
-	print(a + b)
+	fmt.Println(c)
+	fmt.Println(a + b)
 
-	print("Hello World")
+	fmt.Println("Hello World")
 
 	if a < b {
-		print("B is big")
+		fmt.Println("B is big")
 	}
 
 	if c > b {
-		print("C is big")
+		fmt.Println("C is big")
 	}
 }
