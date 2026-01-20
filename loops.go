@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//for loops
+	for i := 0; i <= 10; i++ {
+		fmt.Println(i)
+	}
+
+	//nested loops
+	for i := 1; i <= 10; i++ {
+		for j := 1; j <= i; j++ {
+			fmt.Println(i, j)
+		}
+	}
+
+	//GOTO statements
+end:
+	fmt.Println("End")
+	goto start
+start:
+	fmt.Println("start ")
+	goto end
+}
