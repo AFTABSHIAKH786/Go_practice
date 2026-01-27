@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	//for loops
@@ -26,17 +24,26 @@ func main() {
 
 	//for loop continue and break
 
-	for i := 0; i <= 12; i++ {
+	// for i := 0; i <= 12; i++ {
 
-		if i == 4 {
-			continue
-		}
+	// 	if i == 4 {
+	// 		continue
+	// 	}
 
-		if i == 10 {
-			break
-		}
-		fmt.Println(i)
-	}
+	// 	if i == 10 {
+	// 		break
+	// 	}
+	// 	fmt.Println(i)
+	// }
+
+	// Range
+
+	// for i := range 10 {
+	// 	fmt.Println(i)
+	// }
+
+	// There are no ternary operatos in go
+	// You have to use if and else.
 
 	//	//GOTO statements
 	//
