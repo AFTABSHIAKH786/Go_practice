@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 
@@ -13,5 +16,12 @@ func main() {
 		fmt.Println("Rainy")
 	case "June":
 		fmt.Println("Sunny")
+	}
+
+	switch time.Now().Weekday() {
+	case time.Saturday, time.Sunday:
+		fmt.Println("Its weekend!")
+	default:
+		fmt.Println("Its working day --", time.Now().Weekday())
 	}
 }
